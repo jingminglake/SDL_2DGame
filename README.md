@@ -18,7 +18,8 @@ References:
 </br>6.http://www.2gei.com/sound
 
 Finished:
-</br>1.Bullets pool
+
+1.Bullets pool
 </br>2.Player shoots bullets
 </br>3.Collision detection between sprites
 </br>4.Collision detection between bullets and sprites 
