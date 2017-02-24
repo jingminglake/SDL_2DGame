@@ -1,0 +1,271 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Yaxionh's Animation</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+
+<frameCountForRateCalulate>200</frameCountForRateCalulate>
+<frameMax>400</frameMax>
+<username>Yaxionh</username>
+
+<safeDistance>250</safeDistance>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>5000</width>
+  <height>578</height>
+</world>
+
+<back>
+  <file>images/bg1.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</back>
+
+
+<back3>
+  <file>images/bg3.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>3</factor>
+  <transparency>false</transparency>
+</back3>
+
+<back4>
+  <file>images/bg4.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>4</factor>
+  <transparency>false</transparency>
+</back4>
+
+<back5>
+  <file>images/bg5.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>5</factor>
+  <transparency>false</transparency>
+</back5>
+
+<back6>
+  <file>images/bg6.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>6</factor>
+  <transparency>false</transparency>
+</back6>
+
+<font name="font">
+  <file>font/pirulen.ttf</file>
+  <size>12</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <unused>0</unused>
+</font>
+
+<spinstar>
+  <file>images/star.png</file>
+  <startLoc x="120" y="140"/>
+  <frames>4</frames>
+  <frameInterval>20</frameInterval>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</spinstar>
+
+<player>
+  <file>images/bird5_final.png</file>
+  <hasDirection>true</hasDirection>
+  <startLoc x="500" y="120"/>
+  <frames>16</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>80</speedX>
+  <speedY>80</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>20</size>
+    <distance>150</distance>
+  </chunk>
+  <hp>200</hp>
+</player>
+
+<swan_s>
+  <file>images/bird4_final_80.png</file>
+  <hasDirection>true</hasDirection>
+  <startLoc x="300" y="100"/>
+  <frames>16</frames>
+  <frameInterval>75</frameInterval>
+  <speedX>120</speedX>
+  <speedY>80</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>20</size>
+    <distance>150</distance>
+  </chunk>
+  <hp>20</hp>
+</swan_s>
+
+<swan_l>
+  <file>images/bird4_final_120.png</file>
+  <hasDirection>true</hasDirection>
+  <startLoc x="800" y="60"/>
+  <frames>16</frames>
+  <frameInterval>120</frameInterval>
+  <speedX>80</speedX>
+  <speedY>80</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>20</size>
+    <distance>150</distance>
+  </chunk>
+  <hp>20</hp>
+</swan_l>
+
+<swan_m>
+  <file>images/bird4_final.png</file>
+  <hasDirection>true</hasDirection>
+  <startLoc x="200" y="160"/>
+  <frames>16</frames>
+  <frameInterval>100</frameInterval>
+  <speedX>100</speedX>
+  <speedY>80</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>20</size>
+    <distance>150</distance>
+  </chunk>
+  <hp>20</hp>
+</swan_m>
+
+
+<bluebird_s>
+  <file>images/bird5_final_80.png</file>
+  <hasDirection>true</hasDirection>
+  <startLoc x="700" y="80"/>
+  <frames>16</frames>
+  <frameInterval>75</frameInterval>
+  <speedX>100</speedX>
+  <speedY>60</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>20</size>
+    <distance>150</distance>
+  </chunk>
+</bluebird_s>
+
+<bluebird_l>
+  <file>images/bird5_final_120.png</file>
+  <hasDirection>true</hasDirection>
+  <startLoc x="300" y="30"/>
+  <frames>16</frames>
+  <frameInterval>120</frameInterval>
+  <speedX>100</speedX>
+  <speedY>70</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>20</size>
+    <distance>150</distance>
+  </chunk>
+</bluebird_l>
+
+<bulletR>
+  <file>images/bulletR.png</file>
+  <startLoc x="300" y="200"/>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>30</width> 
+  <height>30</height>
+  <speedX>600</speedX>
+  <speedY>0</speedY>
+  <maxDistance>400</maxDistance>
+  <transparency>true</transparency>
+</bulletR> 
+
+<bulletL>
+  <file>images/bulletL.png</file>
+  <startLoc x="300" y="200"/>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>30</width> 
+  <height>30</height>
+  <speedX>600</speedX>
+  <speedY>0</speedY>
+  <maxDistance>400</maxDistance>
+  <transparency>true</transparency>
+</bulletL> 
+
+
+<pokeball1>
+  <file>images/hawk1.png</file>
+  <hasDirection>false</hasDirection>
+  <startLoc x="500" y="120"/>
+  <frames>4</frames>
+  <frameInterval>200</frameInterval>
+  <speedX>220</speedX>
+  <speedY>80</speedY>
+  <transparency>true</transparency>
+</pokeball1>
+
+<pidgeot>
+  <file>images/pidgeot.png</file>
+  <hasDirection>true</hasDirection>
+  <startLoc x="400" y="120"/>
+  <frames>14</frames>
+  <frameInterval>150</frameInterval>
+  <speedX>100</speedX>
+  <speedY>20</speedY>
+  <transparency>true</transparency>
+</pidgeot>
+
+<star>
+  <file>images/yellowstar32.png</file>
+  <startLoc x="820" y="240"/>
+  <speedX>-175</speedX>
+  <speedY>-175</speedY>
+  <transparency>true</transparency>
+</star>
+
+<winGate>
+  <file>images/winGate.png</file>
+  <startLoc x="600" y="190"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</winGate>
+
+
+<numberOfFlakes>230</numberOfFlakes>
+<flakes>
+  <file>images/drop3.png</file>
+  <cushion>10</cushion>
+  <scale min="0.5" max="1.5"/>
+  <src x="0" y="0"/>
+  <width>10</width>
+  <height>16</height>
+  <loc x="320" y="240"/>
+  <speed x="-5" y="200"/>
+  <transparency>true</transparency>
+</flakes>
+
+<health>
+  <startLoc x="750" y="30"/>
+  <width>200</width>
+  <height>14</height>
+</health>
+</GameData>

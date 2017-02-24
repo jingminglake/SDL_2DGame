@@ -1,0 +1,1007 @@
+==9854== Memcheck, a memory error detector
+==9854== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==9854== Using Valgrind-3.10.1 and LibVEX; rerun with -h for copyright info
+==9854== Command: ./run
+==9854== 
+==9854== Invalid read of size 4
+==9854==    at 0x4E624F0: SDL_FreeSurface (SDL_surface.c:911)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x7224bc4 is 84 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x415176: Sprite::~Sprite() (in /home/yaxionh/cpsc6160_pro3/4160fallAssets-2016/projects/3/tracker.start/run)
+==9854==    by 0x4151DB: Sprite::~Sprite() (sprite.h:14)
+==9854==    by 0x40FC4A: Manager::~Manager() (manager.cpp:13)
+==9854==    by 0x40FAED: main (main.cpp:7)
+==9854== 
+==9854== Invalid write of size 4
+==9854==    at 0x4E624F8: SDL_FreeSurface (SDL_surface.c:911)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x7224bc4 is 84 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x415176: Sprite::~Sprite() (in /home/yaxionh/cpsc6160_pro3/4160fallAssets-2016/projects/3/tracker.start/run)
+==9854==    by 0x4151DB: Sprite::~Sprite() (sprite.h:14)
+==9854==    by 0x40FC4A: Manager::~Manager() (manager.cpp:13)
+==9854==    by 0x40FAED: main (main.cpp:7)
+==9854== 
+==9854== Invalid read of size 4
+==9854==    at 0x4E62510: SDL_FreeSurface (SDL_surface.c:914)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x7224bb4 is 68 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x415176: Sprite::~Sprite() (in /home/yaxionh/cpsc6160_pro3/4160fallAssets-2016/projects/3/tracker.start/run)
+==9854==    by 0x4151DB: Sprite::~Sprite() (sprite.h:14)
+==9854==    by 0x40FC4A: Manager::~Manager() (manager.cpp:13)
+==9854==    by 0x40FAED: main (main.cpp:7)
+==9854== 
+==9854== Invalid read of size 4
+==9854==    at 0x4E62517: SDL_FreeSurface (SDL_surface.c:917)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x7224b70 is 0 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x415176: Sprite::~Sprite() (in /home/yaxionh/cpsc6160_pro3/4160fallAssets-2016/projects/3/tracker.start/run)
+==9854==    by 0x4151DB: Sprite::~Sprite() (sprite.h:14)
+==9854==    by 0x40FC4A: Manager::~Manager() (manager.cpp:13)
+==9854==    by 0x40FAED: main (main.cpp:7)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E6251F: SDL_FreeSurface (SDL_surface.c:920)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x7224b78 is 8 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x415176: Sprite::~Sprite() (in /home/yaxionh/cpsc6160_pro3/4160fallAssets-2016/projects/3/tracker.start/run)
+==9854==    by 0x4151DB: Sprite::~Sprite() (sprite.h:14)
+==9854==    by 0x40FC4A: Manager::~Manager() (manager.cpp:13)
+==9854==    by 0x40FAED: main (main.cpp:7)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E62535: SDL_FreeSurface (SDL_surface.c:924)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x7224bb8 is 72 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x415176: Sprite::~Sprite() (in /home/yaxionh/cpsc6160_pro3/4160fallAssets-2016/projects/3/tracker.start/run)
+==9854==    by 0x4151DB: Sprite::~Sprite() (sprite.h:14)
+==9854==    by 0x40FC4A: Manager::~Manager() (manager.cpp:13)
+==9854==    by 0x40FAED: main (main.cpp:7)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E6254B: SDL_FreeSurface (SDL_surface.c:928)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x7224ba0 is 48 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x415176: Sprite::~Sprite() (in /home/yaxionh/cpsc6160_pro3/4160fallAssets-2016/projects/3/tracker.start/run)
+==9854==    by 0x4151DB: Sprite::~Sprite() (sprite.h:14)
+==9854==    by 0x40FC4A: Manager::~Manager() (manager.cpp:13)
+==9854==    by 0x40FAED: main (main.cpp:7)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E62562: SDL_FreeSurface (SDL_surface.c:933)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x7224b90 is 32 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x415176: Sprite::~Sprite() (in /home/yaxionh/cpsc6160_pro3/4160fallAssets-2016/projects/3/tracker.start/run)
+==9854==    by 0x4151DB: Sprite::~Sprite() (sprite.h:14)
+==9854==    by 0x40FC4A: Manager::~Manager() (manager.cpp:13)
+==9854==    by 0x40FAED: main (main.cpp:7)
+==9854== 
+==9854== Invalid read of size 4
+==9854==    at 0x4E6256B: SDL_FreeSurface (SDL_surface.c:933)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x7224b70 is 0 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x415176: Sprite::~Sprite() (in /home/yaxionh/cpsc6160_pro3/4160fallAssets-2016/projects/3/tracker.start/run)
+==9854==    by 0x4151DB: Sprite::~Sprite() (sprite.h:14)
+==9854==    by 0x40FC4A: Manager::~Manager() (manager.cpp:13)
+==9854==    by 0x40FAED: main (main.cpp:7)
+==9854== 
+==9854== Invalid free() / delete / delete[] / realloc()
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E6259C: SDL_FreeSurface (SDL_surface.c:935)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x7224c80 is 0 bytes inside a block of size 4,096 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E6259C: SDL_FreeSurface (SDL_surface.c:935)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x415176: Sprite::~Sprite() (in /home/yaxionh/cpsc6160_pro3/4160fallAssets-2016/projects/3/tracker.start/run)
+==9854==    by 0x4151DB: Sprite::~Sprite() (sprite.h:14)
+==9854==    by 0x40FC4A: Manager::~Manager() (manager.cpp:13)
+==9854==    by 0x40FAED: main (main.cpp:7)
+==9854== 
+==9854== Invalid free() / delete / delete[] / realloc()
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x7224b70 is 0 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x415176: Sprite::~Sprite() (in /home/yaxionh/cpsc6160_pro3/4160fallAssets-2016/projects/3/tracker.start/run)
+==9854==    by 0x4151DB: Sprite::~Sprite() (sprite.h:14)
+==9854==    by 0x40FC4A: Manager::~Manager() (manager.cpp:13)
+==9854==    by 0x40FAED: main (main.cpp:7)
+==9854== 
+==9854== Invalid read of size 4
+==9854==    at 0x4E624F0: SDL_FreeSurface (SDL_surface.c:911)
+==9854==    by 0x403FF4: Frame::~Frame() (frame.cpp:32)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a1524 is 84 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid write of size 4
+==9854==    at 0x4E624F8: SDL_FreeSurface (SDL_surface.c:911)
+==9854==    by 0x403FF4: Frame::~Frame() (frame.cpp:32)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a1524 is 84 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 4
+==9854==    at 0x4E62510: SDL_FreeSurface (SDL_surface.c:914)
+==9854==    by 0x403FF4: Frame::~Frame() (frame.cpp:32)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a1514 is 68 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 4
+==9854==    at 0x4E62517: SDL_FreeSurface (SDL_surface.c:917)
+==9854==    by 0x403FF4: Frame::~Frame() (frame.cpp:32)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a14d0 is 0 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E6251F: SDL_FreeSurface (SDL_surface.c:920)
+==9854==    by 0x403FF4: Frame::~Frame() (frame.cpp:32)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a14d8 is 8 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E62535: SDL_FreeSurface (SDL_surface.c:924)
+==9854==    by 0x403FF4: Frame::~Frame() (frame.cpp:32)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a1518 is 72 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E6254B: SDL_FreeSurface (SDL_surface.c:928)
+==9854==    by 0x403FF4: Frame::~Frame() (frame.cpp:32)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a1500 is 48 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E62562: SDL_FreeSurface (SDL_surface.c:933)
+==9854==    by 0x403FF4: Frame::~Frame() (frame.cpp:32)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a14f0 is 32 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid free() / delete / delete[] / realloc()
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x403FF4: Frame::~Frame() (frame.cpp:32)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a14d0 is 0 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 4
+==9854==    at 0x4E624F0: SDL_FreeSurface (SDL_surface.c:911)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x71ead94 is 84 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid write of size 4
+==9854==    at 0x4E624F8: SDL_FreeSurface (SDL_surface.c:911)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x71ead94 is 84 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 4
+==9854==    at 0x4E62510: SDL_FreeSurface (SDL_surface.c:914)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x71ead84 is 68 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 4
+==9854==    at 0x4E62517: SDL_FreeSurface (SDL_surface.c:917)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x71ead40 is 0 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E6251F: SDL_FreeSurface (SDL_surface.c:920)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x71ead48 is 8 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E62535: SDL_FreeSurface (SDL_surface.c:924)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x71ead88 is 72 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E6254B: SDL_FreeSurface (SDL_surface.c:928)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x71ead70 is 48 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E62562: SDL_FreeSurface (SDL_surface.c:933)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x71ead60 is 32 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 4
+==9854==    at 0x4E6256B: SDL_FreeSurface (SDL_surface.c:933)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x71ead40 is 0 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid free() / delete / delete[] / realloc()
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E6259C: SDL_FreeSurface (SDL_surface.c:935)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x8c7f040 is 0 bytes inside a block of size 4,915,200 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E6259C: SDL_FreeSurface (SDL_surface.c:935)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid free() / delete / delete[] / realloc()
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x71ead40 is 0 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404396: FrameFactory::~FrameFactory() (frameFactory.cpp:10)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x403FEA: Frame::~Frame() (frame.cpp:32)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x7226240 is 0 bytes inside a block of size 24 free'd
+==9854==    at 0x4C2C2BC: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x41517E: Sprite::~Sprite() (in /home/yaxionh/cpsc6160_pro3/4160fallAssets-2016/projects/3/tracker.start/run)
+==9854==    by 0x4151DB: Sprite::~Sprite() (sprite.h:14)
+==9854==    by 0x40FC4A: Manager::~Manager() (manager.cpp:13)
+==9854==    by 0x40FAED: main (main.cpp:7)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x403FF9: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x4044AC: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x7226248 is 8 bytes inside a block of size 24 free'd
+==9854==    at 0x4C2C2BC: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x41517E: Sprite::~Sprite() (in /home/yaxionh/cpsc6160_pro3/4160fallAssets-2016/projects/3/tracker.start/run)
+==9854==    by 0x4151DB: Sprite::~Sprite() (sprite.h:14)
+==9854==    by 0x40FC4A: Manager::~Manager() (manager.cpp:13)
+==9854==    by 0x40FAED: main (main.cpp:7)
+==9854== 
+==9854== Invalid free() / delete / delete[] / realloc()
+==9854==    at 0x4C2C2BC: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4044B4: FrameFactory::~FrameFactory() (frameFactory.cpp:23)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x7226240 is 0 bytes inside a block of size 24 free'd
+==9854==    at 0x4C2C2BC: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x41517E: Sprite::~Sprite() (in /home/yaxionh/cpsc6160_pro3/4160fallAssets-2016/projects/3/tracker.start/run)
+==9854==    by 0x4151DB: Sprite::~Sprite() (sprite.h:14)
+==9854==    by 0x40FC4A: Manager::~Manager() (manager.cpp:13)
+==9854==    by 0x40FAED: main (main.cpp:7)
+==9854== 
+==9854== Invalid read of size 4
+==9854==    at 0x4E624F0: SDL_FreeSurface (SDL_surface.c:911)
+==9854==    by 0x403FF4: Frame::~Frame() (frame.cpp:32)
+==9854==    by 0x40453A: FrameFactory::~FrameFactory() (frameFactory.cpp:30)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a1524 is 84 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid write of size 4
+==9854==    at 0x4E624F8: SDL_FreeSurface (SDL_surface.c:911)
+==9854==    by 0x403FF4: Frame::~Frame() (frame.cpp:32)
+==9854==    by 0x40453A: FrameFactory::~FrameFactory() (frameFactory.cpp:30)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a1524 is 84 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 4
+==9854==    at 0x4E62510: SDL_FreeSurface (SDL_surface.c:914)
+==9854==    by 0x403FF4: Frame::~Frame() (frame.cpp:32)
+==9854==    by 0x40453A: FrameFactory::~FrameFactory() (frameFactory.cpp:30)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a1514 is 68 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 4
+==9854==    at 0x4E62517: SDL_FreeSurface (SDL_surface.c:917)
+==9854==    by 0x403FF4: Frame::~Frame() (frame.cpp:32)
+==9854==    by 0x40453A: FrameFactory::~FrameFactory() (frameFactory.cpp:30)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a14d0 is 0 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E6251F: SDL_FreeSurface (SDL_surface.c:920)
+==9854==    by 0x403FF4: Frame::~Frame() (frame.cpp:32)
+==9854==    by 0x40453A: FrameFactory::~FrameFactory() (frameFactory.cpp:30)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a14d8 is 8 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E62535: SDL_FreeSurface (SDL_surface.c:924)
+==9854==    by 0x403FF4: Frame::~Frame() (frame.cpp:32)
+==9854==    by 0x40453A: FrameFactory::~FrameFactory() (frameFactory.cpp:30)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a1518 is 72 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E6254B: SDL_FreeSurface (SDL_surface.c:928)
+==9854==    by 0x403FF4: Frame::~Frame() (frame.cpp:32)
+==9854==    by 0x40453A: FrameFactory::~FrameFactory() (frameFactory.cpp:30)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a1500 is 48 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E62562: SDL_FreeSurface (SDL_surface.c:933)
+==9854==    by 0x403FF4: Frame::~Frame() (frame.cpp:32)
+==9854==    by 0x40453A: FrameFactory::~FrameFactory() (frameFactory.cpp:30)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a14f0 is 32 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid free() / delete / delete[] / realloc()
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x403FF4: Frame::~Frame() (frame.cpp:32)
+==9854==    by 0x40453A: FrameFactory::~FrameFactory() (frameFactory.cpp:30)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a14d0 is 0 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 4
+==9854==    at 0x4E624F0: SDL_FreeSurface (SDL_surface.c:911)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x40453A: FrameFactory::~FrameFactory() (frameFactory.cpp:30)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x720d4f4 is 84 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404415: FrameFactory::~FrameFactory() (frameFactory.cpp:17)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid write of size 4
+==9854==    at 0x4E624F8: SDL_FreeSurface (SDL_surface.c:911)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x40453A: FrameFactory::~FrameFactory() (frameFactory.cpp:30)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x720d4f4 is 84 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404415: FrameFactory::~FrameFactory() (frameFactory.cpp:17)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 4
+==9854==    at 0x4E62510: SDL_FreeSurface (SDL_surface.c:914)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x40453A: FrameFactory::~FrameFactory() (frameFactory.cpp:30)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x720d4e4 is 68 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404415: FrameFactory::~FrameFactory() (frameFactory.cpp:17)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 4
+==9854==    at 0x4E62517: SDL_FreeSurface (SDL_surface.c:917)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x40453A: FrameFactory::~FrameFactory() (frameFactory.cpp:30)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x720d4a0 is 0 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404415: FrameFactory::~FrameFactory() (frameFactory.cpp:17)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E6251F: SDL_FreeSurface (SDL_surface.c:920)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x40453A: FrameFactory::~FrameFactory() (frameFactory.cpp:30)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x720d4a8 is 8 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404415: FrameFactory::~FrameFactory() (frameFactory.cpp:17)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E62535: SDL_FreeSurface (SDL_surface.c:924)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x40453A: FrameFactory::~FrameFactory() (frameFactory.cpp:30)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x720d4e8 is 72 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404415: FrameFactory::~FrameFactory() (frameFactory.cpp:17)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E6254B: SDL_FreeSurface (SDL_surface.c:928)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x40453A: FrameFactory::~FrameFactory() (frameFactory.cpp:30)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x720d4d0 is 48 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404415: FrameFactory::~FrameFactory() (frameFactory.cpp:17)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E62562: SDL_FreeSurface (SDL_surface.c:933)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x40453A: FrameFactory::~FrameFactory() (frameFactory.cpp:30)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x720d4c0 is 32 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404415: FrameFactory::~FrameFactory() (frameFactory.cpp:17)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 4
+==9854==    at 0x4E6256B: SDL_FreeSurface (SDL_surface.c:933)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x40453A: FrameFactory::~FrameFactory() (frameFactory.cpp:30)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x720d4a0 is 0 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404415: FrameFactory::~FrameFactory() (frameFactory.cpp:17)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid free() / delete / delete[] / realloc()
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E6259C: SDL_FreeSurface (SDL_surface.c:935)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x40453A: FrameFactory::~FrameFactory() (frameFactory.cpp:30)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x720d5b0 is 0 bytes inside a block of size 4,096 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E6259C: SDL_FreeSurface (SDL_surface.c:935)
+==9854==    by 0x404415: FrameFactory::~FrameFactory() (frameFactory.cpp:17)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid free() / delete / delete[] / realloc()
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404004: Frame::~Frame() (frame.cpp:33)
+==9854==    by 0x40453A: FrameFactory::~FrameFactory() (frameFactory.cpp:30)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x720d4a0 is 0 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x404415: FrameFactory::~FrameFactory() (frameFactory.cpp:17)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 4
+==9854==    at 0x4E624F0: SDL_FreeSurface (SDL_surface.c:911)
+==9854==    by 0x40FA6E: IOManager::~IOManager() (ioManager.h:17)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a1524 is 84 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid write of size 4
+==9854==    at 0x4E624F8: SDL_FreeSurface (SDL_surface.c:911)
+==9854==    by 0x40FA6E: IOManager::~IOManager() (ioManager.h:17)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a1524 is 84 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 4
+==9854==    at 0x4E62510: SDL_FreeSurface (SDL_surface.c:914)
+==9854==    by 0x40FA6E: IOManager::~IOManager() (ioManager.h:17)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a1514 is 68 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 4
+==9854==    at 0x4E62517: SDL_FreeSurface (SDL_surface.c:917)
+==9854==    by 0x40FA6E: IOManager::~IOManager() (ioManager.h:17)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a14d0 is 0 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E6251F: SDL_FreeSurface (SDL_surface.c:920)
+==9854==    by 0x40FA6E: IOManager::~IOManager() (ioManager.h:17)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a14d8 is 8 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E62535: SDL_FreeSurface (SDL_surface.c:924)
+==9854==    by 0x40FA6E: IOManager::~IOManager() (ioManager.h:17)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a1518 is 72 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E6254B: SDL_FreeSurface (SDL_surface.c:928)
+==9854==    by 0x40FA6E: IOManager::~IOManager() (ioManager.h:17)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a1500 is 48 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid read of size 8
+==9854==    at 0x4E62562: SDL_FreeSurface (SDL_surface.c:933)
+==9854==    by 0x40FA6E: IOManager::~IOManager() (ioManager.h:17)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a14f0 is 32 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== Invalid free() / delete / delete[] / realloc()
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x40FA6E: IOManager::~IOManager() (ioManager.h:17)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854==  Address 0x70a14d0 is 0 bytes inside a block of size 88 free'd
+==9854==    at 0x4C2BDEC: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x4E644FE: SDL_VideoQuit (SDL_video.c:1374)
+==9854==    by 0x4E3EB54: SDL_QuitSubSystem (SDL.c:196)
+==9854==    by 0x4E3EBFD: SDL_Quit (SDL.c:222)
+==9854==    by 0x618D1A8: __run_exit_handlers (exit.c:82)
+==9854==    by 0x618D1F4: exit (exit.c:104)
+==9854==    by 0x6172F4B: (below main) (libc-start.c:321)
+==9854== 
+==9854== 
+==9854== HEAP SUMMARY:
+==9854==     in use at exit: 54,828 bytes in 524 blocks
+==9854==   total heap usage: 10,193 allocs, 9,695 frees, 17,847,690 bytes allocated
+==9854== 
+==9854== 8 bytes in 2 blocks are definitely lost in loss record 5 of 119
+==9854==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x61D9729: strdup (strdup.c:42)
+==9854==    by 0x7478E56: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x747BDD4: _XimEncodeICATTRIBUTE (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x746E07A: _XimProtoCreateIC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x745B884: XCreateIC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x4E74E03: create_aux_windows (SDL_x11video.c:533)
+==9854==    by 0x4E75D34: X11_VideoInit (SDL_x11video.c:704)
+==9854==    by 0x4E647CA: SDL_VideoInit (SDL_video.c:246)
+==9854==    by 0x4E3EA5B: SDL_InitSubSystem (SDL.c:89)
+==9854==    by 0x4E3EAD3: SDL_Init (SDL.c:162)
+==9854==    by 0x4E65521: SDL_SetVideoMode (SDL_video.c:601)
+==9854== 
+==9854== 9 bytes in 1 blocks are definitely lost in loss record 6 of 119
+==9854==    at 0x4C2AB80: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x746AA0E: _XlcDefaultMapModifiers (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x746ADF5: XSetLocaleModifiers (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x4E74FBB: create_aux_windows (SDL_x11video.c:498)
+==9854==    by 0x4E75D34: X11_VideoInit (SDL_x11video.c:704)
+==9854==    by 0x4E647CA: SDL_VideoInit (SDL_video.c:246)
+==9854==    by 0x4E3EA5B: SDL_InitSubSystem (SDL.c:89)
+==9854==    by 0x4E3EAD3: SDL_Init (SDL.c:162)
+==9854==    by 0x4E65521: SDL_SetVideoMode (SDL_video.c:601)
+==9854==    by 0x40EEAC: IOManager::IOManager() (ioManager.cpp:17)
+==9854==    by 0x40ED05: IOManager::getInstance() (ioManager.cpp:7)
+==9854==    by 0x40FD2A: Manager::Manager() (manager.cpp:20)
+==9854== 
+==9854== 192 (16 direct, 176 indirect) bytes in 1 blocks are definitely lost in loss record 94 of 119
+==9854==    at 0x4C2CE8E: realloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x74610FD: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x7461657: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x7462F04: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x74636BB: _XlcCreateLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x747FC9F: _XlcDefaultLoader (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x746AC4D: _XOpenLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x746AD97: _XlcCurrentLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x746ADCD: XSetLocaleModifiers (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x4E74F6B: create_aux_windows (SDL_x11video.c:486)
+==9854==    by 0x4E75D34: X11_VideoInit (SDL_x11video.c:704)
+==9854==    by 0x4E647CA: SDL_VideoInit (SDL_video.c:246)
+==9854== 
+==9854== 1,688 (136 direct, 1,552 indirect) bytes in 1 blocks are definitely lost in loss record 112 of 119
+==9854==    at 0x4C2CE8E: realloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9854==    by 0x74610FD: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x7461657: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x7462F04: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x74636BB: _XlcCreateLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x74839CF: _XlcUtf8Loader (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x746AC4D: _XOpenLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x746AD97: _XlcCurrentLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x746ADCD: XSetLocaleModifiers (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+==9854==    by 0x4E74FBB: create_aux_windows (SDL_x11video.c:498)
+==9854==    by 0x4E75D34: X11_VideoInit (SDL_x11video.c:704)
+==9854==    by 0x4E647CA: SDL_VideoInit (SDL_video.c:246)
+==9854== 
+==9854== LEAK SUMMARY:
+==9854==    definitely lost: 169 bytes in 5 blocks
+==9854==    indirectly lost: 1,728 bytes in 38 blocks
+==9854==      possibly lost: 0 bytes in 0 blocks
+==9854==    still reachable: 52,931 bytes in 481 blocks
+==9854==         suppressed: 0 bytes in 0 blocks
+==9854== Reachable blocks (those to which a pointer was found) are not shown.
+==9854== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==9854== 
+==9854== For counts of detected and suppressed errors, rerun with: -v
+==9854== ERROR SUMMARY: 177 errors from 67 contexts (suppressed: 233 from 1)
