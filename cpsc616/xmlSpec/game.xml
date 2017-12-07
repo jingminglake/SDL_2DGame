@@ -29,7 +29,7 @@
   <red>193</red>
   <green>205</green>
   <blue>205</blue>
-  <factor>1</factor>
+  <factor>8</factor>
   <transparency>false</transparency>
 </back>
 
@@ -39,7 +39,7 @@
   <red>193</red>
   <green>205</green>
   <blue>205</blue>
-  <factor>3</factor>
+  <factor>6</factor>
   <transparency>false</transparency>
 </back3>
 
@@ -57,7 +57,7 @@
   <red>193</red>
   <green>205</green>
   <blue>205</blue>
-  <factor>5</factor>
+  <factor>2</factor>
   <transparency>false</transparency>
 </back5>
 
@@ -66,7 +66,7 @@
   <red>193</red>
   <green>205</green>
   <blue>205</blue>
-  <factor>6</factor>
+  <factor>1</factor>
   <transparency>false</transparency>
 </back6>
 
