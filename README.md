@@ -32,7 +32,7 @@ Finished:
 </br>11.Sound and music : (1)shooting (2)win the game (3) explosion (4)background music 
 </br>12.no warning, no memeory leak
 
-<video id="video" controls="" preload="none">
-      <source id="mp4" src="game.mp4" type="video/mp4">
+<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
+      <source id="mp4" src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
       <p>Your user agent does not support the HTML5 Video element.</p>
 </video>
