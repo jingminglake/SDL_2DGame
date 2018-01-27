@@ -34,4 +34,4 @@ Finished:
 
 ## Demo
 
-[![Demo Doccou alpha](http://webapp.cs.clemson.edu/~yaxionh/game.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+[![Demo Doccou alpha](http://webapp.cs.clemson.edu/~yaxionh/game.gif)](http://webapp.cs.clemson.edu/~yaxionh/game.gif)
