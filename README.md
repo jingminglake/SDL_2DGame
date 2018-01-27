@@ -34,4 +34,4 @@ Finished:
 
 ## Demo
 
-![Demo](http://webapp.cs.clemson.edu/~yaxionh/output.gif)
+[![Demo](game.png)](https://webapp.cs.clemson.edu/~yaxionh/game.gif)
