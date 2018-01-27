@@ -32,4 +32,6 @@ Finished:
 </br>11.Sound and music : (1)shooting (2)win the game (3) explosion (4)background music 
 </br>12.no warning, no memeory leak
 
-[![Demo Doccou alpha](http://webapp.cs.clemson.edu/game.gif)](http://webapp.cs.clemson.edu/game.gif)
+## Demo
+
+[![Demo Doccou alpha](http://webapp.cs.clemson.edu/~yaxionh/game.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
