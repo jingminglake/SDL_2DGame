@@ -34,4 +34,4 @@ Finished:
 
 ## Demo
 
-[![Demo Doccou alpha](http://webapp.cs.clemson.edu/~yaxionh/output.gif)
+![Demo](http://webapp.cs.clemson.edu/~yaxionh/output.gif)
