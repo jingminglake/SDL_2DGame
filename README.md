@@ -35,3 +35,4 @@ Finished:
 ## Demo
 
 ![Demo](http://webapp.cs.clemson.edu/~yaxionh/output.gif)
+![Demo](https://github.com/ajasmin/camstudio-mousedown-highlight/raw/master/android_vid_test.gif)
